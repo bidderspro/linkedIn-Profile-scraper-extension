@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>LinkedIn Scraper</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">LinkedIn Profile Scraper</h1>
+      <button id="scrapeBtn" class="scrape-button">
+        <span class="button-text">Scrape Profile</span>
+        <div class="loader hidden"></div>
+      </button>
+
+      <div id="resultContainer" class="result-container hidden">
+        <div class="data-header">Extracted Data</div>
+        <div id="result" class="data-container"></div>
+      </div>
+
+      <div id="errorContainer" class="error-container hidden"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
